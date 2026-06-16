@@ -1,0 +1,18 @@
+{
+  "name": "ai-firewall-js",
+  "version": "1.0.0",
+  "description": "High-performance Node.js AI Firewall proxy",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/main.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
