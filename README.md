@@ -25,13 +25,6 @@ This sandbox includes the **Python & TypeScript gateways** running on port `1143
 ## Architecture
 
 ```mermaid
----
-config:
-  theme: base
-  themeVariables:
-    fontSize: 14px
-  layout: elk
----
 flowchart TD
     %% Define Styles
     classDef frontend fill:#ff3366,stroke:#ff3366,stroke-width:1px,color:#fff
